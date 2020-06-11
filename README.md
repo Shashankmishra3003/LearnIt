@@ -12,16 +12,16 @@ The application also acts as an assessment platform where the users can test the
 </ul>
 
 ## Features
-**NAVIGATION DRAWER:** *Main Activity and Quiz Activity* 
-**RECYCLER VIEW:** *Course Topic Activity, Quiz Topic Activity* 
-**CUSTOM TOOBAR:** *All Activities* 
-**CUSTOM MENUS:** *Video Notes Activity* 
-**FRAGMENTS:** *Home fragment, Topic Fragments, Error Fragment.* 
-**LAYOUT AND ORIENTATION PERSISTENCE:**
-**FIREBASE REALTIME DATABSE:*Entire data.*
-**CUSTOM DIALOG:** *Error dialog, Confirmation dialog. Utilities Package.* 
-**YOUTUBE VIDEO PLAYER:** *Video Notes Activity.* 
-**VIEW PAGER:** *Display quiz questions and Image Slider.* 
-**BROADCAST RECEIVER:** *Quiz Activity and Result Activity.* 
-**CUSTOM LAYOUTS:** *Quiz Activity.* 
-**EXCEPTION HADLING:** *On all Activities.* 
+**NAVIGATION DRAWER:** *Main Activity and Quiz Activity* <br>
+**RECYCLER VIEW:** *Course Topic Activity, Quiz Topic Activity*<br> 
+**CUSTOM TOOBAR:** *All Activities* <br>
+**CUSTOM MENUS:** *Video Notes Activity* <br> 
+**FRAGMENTS:** *Home fragment, Topic Fragments, Error Fragment* <br> 
+**LAYOUT AND ORIENTATION PERSISTENCE** <br>
+**FIREBASE REALTIME DATABSE:** *Entire data.* <br>
+**CUSTOM DIALOG:** *Error dialog, Confirmation dialog. Utilities Package.* <br>
+**YOUTUBE VIDEO PLAYER:** *Video Notes Activity.* <br>
+**VIEW PAGER:** *Display quiz questions and Image Slider.* <br>
+**BROADCAST RECEIVER:** *Quiz Activity and Result Activity.* <br>
+**CUSTOM LAYOUTS:** *Quiz Activity.* <br>
+**EXCEPTION HADLING:** *On all Activities.* <br> 
