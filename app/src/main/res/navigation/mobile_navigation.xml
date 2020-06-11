@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.e.learnit.HomeFragment"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/courseFragment"
+        android:name="com.e.learnit.ui.fragments.CourseFragment"
+        android:label="fragment_course"
+        tools:layout="@layout/fragment_course" >
+        <action
+            android:id="@+id/action_courseFragment_to_courseTopicFragment"
+            app:destination="@id/courseTopicFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/courseTopicFragment"
+        android:name="com.e.learnit.ui.fragments.CourseTopicFragment"
+        android:label="fragment_course_topic"
+        tools:layout="@layout/fragment_course_topic" />
+    <fragment
+        android:id="@+id/quizFragment"
+        android:name="com.e.learnit.ui.fragments.QuizFragment"
+        android:label="fragment_quiz"
+        tools:layout="@layout/fragment_quiz" >
+        <action
+            android:id="@+id/action_quizFragment_to_quizTopicFragment"
+            app:destination="@id/quizTopicFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quizTopicFragment"
+        android:name="com.e.learnit.ui.fragments.QuizTopicFragment"
+        android:label="fragment_quiz_topic"
+        tools:layout="@layout/fragment_quiz_topic" />
+
+
+</navigation>
